@@ -23,7 +23,7 @@ window.onload = async () => {
 
     document.getElementsByClassName("success-btn")[0].onclick = function () {
         $("#page").css("display","block");
-        $(".wrapper")[0].css("display","none");
+        $(".wrapper").css("display","none");
     }
 }
 
