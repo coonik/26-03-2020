@@ -1,0 +1,177 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background-image: url("https://i.pinimg.com/originals/d8/b5/3c/d8b53c74bce9378ddf73688f58f56797.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+input{
+    border: none;
+    background: none;
+    color: skyblue;
+    width: 100%;
+}
+
+img{
+    display: inline-block;
+    width: 120px;
+    height: 135px;
+    border-radius: 4px;
+    transition-duration: 2s;
+}
+
+.wrapper{
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+    padding: 8px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.text{
+    text-align: center;
+    padding: 5px 9px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.text-span{
+    color: skyblue;
+    font-size: 20px;
+    text-decoration: underline;
+    transition-duration: 2s;
+}
+
+.lb{
+    transition-duration: 2s;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-top: 50px;
+}
+
+.alert{
+    height: 20px;
+    width: 100%;
+    padding: 0% 17px;
+    box-sizing: border-box;
+    text-align: right;
+    margin: 0;
+}
+
+.alert-span{
+    display: none;
+    color: yellow;
+    font-size: 10px;
+}
+
+.ip{
+    position: relative;
+    width: 60%;
+    max-width: 400px;
+}
+
+.ip input{
+    width: 100%;
+    height: 100%;
+    margin: 20px 0px;
+    margin-left: 40px;
+    margin-bottom: 0;
+    padding: 5px;
+    outline-color: skyblue;
+    background: none;
+}
+
+.ip>label{
+    z-index: -1;
+    position: absolute;
+    top: 48%;
+    text-align: left;
+    left: 45px;
+    transition-duration: 0.5s;
+    color: skyblue;
+}
+
+.ip input:focus + label{
+    top: 0px;
+}
+
+.bg{
+    position: absolute;
+    /* z-index: -1; */
+    top: 0em;
+    left: 0em;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 1;
+}
+
+.mdAlert{
+    /* background-size: ; */
+    border-radius: 5px;
+}
+
+.mdAlert div{
+    background: white;
+}
+
+.modal-header{
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-image: url("https://scontent-sin6-2.xx.fbcdn.net/v/t1.15752-9/90023558_234351824375693_2618434027551457280_n.jpg?_nc_cat=105&_nc_sid=b96e70&_nc_eui2=AeGQ67taW5hRYVJqhR87ZRGRQNHZTDGYYssjpf_yd5GqIgKDPyVPtlHxK9FGqivOz7U9-RPywlOHhYtXXE8Ag9Q6j1WggI_PlG2lQLM4a-fNcw&_nc_oc=AQnXtBGOVBDSJad5O5PQrR1-hB3vbdGqaA68tTlinIPY70NiygQBgXAUkNz50yMSD8M&_nc_ht=scontent-sin6-2.xx&oh=7ca905eb0deaadb7d7a0a18f1307eb2a&oe=5E9D500B") !important;
+}
+
+.modal-body{
+    font-size: 18px;
+    background-size: contain !important;
+}
+
+.modal-footer{
+    text-align: center;
+}
+
+.success{
+    display: none;
+}
+
+.btn-default{
+    margin: 5px;
+}
+
+.success-header{
+    background-image: url("https://sdl-stickershop.line.naver.jp/products/0/0/1/1066653/android/stickers/2754644.png") !important;
+}
+
+#page{
+    display: none;
+}
+
+#music{
+    display: none;
+}
+
+.img1{
+    transform: scale(0.1) rotate(45deg);
+    /* transform: scale3d(1, 1, 1); */
+}
+
+.img2{
+    transform: scale(0.1) rotate(-45deg);
+}
+
+.img{
+    display: none;
+}
